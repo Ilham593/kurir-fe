@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* Tambahan agar layout aplikasi kurir mantap di mobile */
+:root, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Mencegah scroll yang tidak diinginkan di luar peta */
+}
