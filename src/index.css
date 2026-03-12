@@ -7,3 +7,12 @@
   padding: 0;
   overflow: hidden; /* Mencegah scroll yang tidak diinginkan di luar peta */
 }
+
+.leaflet-container {
+  z-index: 0;
+}
+
+.search-layer {
+  position: absolute;
+  z-index: 3000;
+}
